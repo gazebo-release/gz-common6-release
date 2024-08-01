@@ -22,7 +22,8 @@ override_dh_install:
 	$(RM) debian/libgz-common6-core-dev/usr/include/gz/common*/gz/common/graphics.hh
 	$(RM) debian/libgz-common6-core-dev/usr/include/gz/common*/gz/common/io.hh
 	$(RM) debian/libgz-common6-core-dev/usr/include/gz/common*/gz/common/testing.hh
-	dh_missing --list-missing
+	install -d debian/tmp/usr/share/gz/gz-common6/
+	install ./obj-*/*.tag.xml debian/tmp/usr/share/gz/gz-common6/
 
 # test cannot run in parallel
 override_dh_auto_test:
@@ -32,8 +33,3 @@ override_dh_auto_test:
 override_dh_auto_build:
 	dh_auto_build -- doc
 	dh_auto_build
-
-override_dh_auto_install:
-	dh_auto_install
-	install -d debian/tmp/usr/share/gz/gz-common6/
-	install ./obj-*/*.tag.xml debian/tmp/usr/share/gz/gz-common6/
