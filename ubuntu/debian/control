@@ -12,7 +12,7 @@ Build-Depends: cmake,
                libgz-cmake4-dev,
                libgz-math8-dev,
                libgz-utils3-dev,
-               libgz-utils3-log-dev
+               libgz-utils3-log-dev,
                libtinyxml2-dev,
                uuid-dev,
                libavdevice-dev,
@@ -45,7 +45,7 @@ Architecture: any
 Section: libdevel
 Depends: libgz-cmake4-dev,
          libgz-utils3-dev,
-         libgz-utils3-log-dev
+         libgz-utils3-log-dev,
          uuid-dev,
          libspdlog-dev,
          libgz-common6 (= ${binary:Version}),
