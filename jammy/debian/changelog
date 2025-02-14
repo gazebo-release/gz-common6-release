@@ -1,3 +1,9 @@
+gz-common6 (6.0.2-1~jammy) jammy; urgency=medium
+
+  * gz-common6 6.0.2-1 release
+
+ -- Carlos Aguero <caguero@openrobotics.org>  Fri, 14 Feb 2025 15:55:06 +0100
+
 gz-common6 (6.0.1-1~jammy) jammy; urgency=medium
 
   * gz-common6 6.0.1-1 release
