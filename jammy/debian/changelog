@@ -1,3 +1,9 @@
+gz-common6 (6.2.0-1~jammy) jammy; urgency=medium
+
+  * gz-common6 6.2.0-1 release
+
+ -- Ian Chen <ichen@openrobotics.org>  Tue, 11 Nov 2025 22:26:11 +0000
+
 gz-common6 (6.1.0-1~jammy) jammy; urgency=medium
 
   * gz-common6 6.1.0-1 release
